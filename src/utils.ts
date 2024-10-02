@@ -45,10 +45,10 @@ async function loadModel(
   switch (key) {
     case "roof": {
       const rotation = [0, -90, 0];
-      const scale = [1, 1, 3.36];
-      for (let i = 0; i <28; i += 1) {
+      const scale = [1, 1, 3.526];
+      for (let i = 0; i <29; i += 1) {
         instances.push({
-          coords: [-1.68, 2.5, 2.57 - 0.19 * i],
+          coords: [-1.755, 2.5, 2.66 - 0.19 * i],
           rotation,
           scale,
         });
@@ -56,10 +56,10 @@ async function loadModel(
       break;
     }
     case "lodge_short": {
-      const scale = [3.32, 1, 1];
+      const scale = [3.49, 1, 1];
       for (let i = 0; i <11; i += 1) {
         instances.push({
-          coords: [-1.66, 2.35, 2.48 - 0.5 * i],
+          coords: [-1.735, 2.35, 2.5 - 0.502 * i],
           scale,
         });
       }
@@ -67,13 +67,13 @@ async function loadModel(
     }
     case "lodge_inset": { 
       // front and back ones
-      for (let i = 0; i <5; i += 1) {
+      for (let i = 0; i <4; i += 1) {
         instances.push({
-          coords: [-0.9 + 0.6 * i, 2.35, 2.5],
+          coords: [-0.9 + 0.6 * i, 2.35, 2.55],
           rotation : [0, -90, 0]
         });
         instances.push({
-          coords: [-0.9 + 0.6 * i, 2.35, -2.5],
+          coords: [-0.9 + 0.6 * i, 2.35, -2.515],
           rotation : [0, 90, 0]
         });
       }

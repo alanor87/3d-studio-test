@@ -27,27 +27,21 @@ const canopyStructure: CanopyStructureType = {
     instances: [
       {
         coords: [-1.5, 0, 2.5],
-        type: "corner.front.left",
       },
       {
         coords: [-1.5, 0, 0],
-        type: "middle",
       },
       {
         coords: [-1.5, 0, -2.5],
-        type: "corner.back.left",
       },
       {
         coords: [1.5, 0, -2.5],
-        type: "corner.back.right",
       },
       {
         coords: [1.5, 0, 0],
-        type: "middle",
       },
       {
         coords: [1.5, 0, 2.5],
-        type: "corner.front.left",
       },
     ],
   },
@@ -140,26 +134,22 @@ const canopyStructure: CanopyStructureType = {
     texPath: "../data/textures/texture_wood.jpg",
     instances: [
       {
-        coords: [-1.68, 2.3, 2.66], //front
-        scale: [3.36, 1, 1],
-        type: "front",
+        coords: [-1.755, 2.3, 2.735], //front
+        scale: [3.53, 1, 1],
       },
       {
-        coords: [-1.68, 2.3, 2.66], //left
-        scale: [5.32, 1, 1],
+        coords: [-1.755, 2.3, 2.735], //left
+        scale: [5.45, 1, 1],
         rotation: [0, 90, 0],
-        type: "left",
       },
       {
-        coords: [-1.68, 2.3, -2.68], //back
-        scale: [3.36, 1, 1],
-        type: "back",
+        coords: [-1.755, 2.3, -2.735], //back
+        scale: [3.53, 1, 1],
       },
       {
-        coords: [1.66, 2.3, 2.68], //right
-        scale: [5.34, 1, 1],
+        coords: [1.755, 2.3, 2.735], //right
+        scale: [5.45, 1, 1],
         rotation: [0, 90, 0],
-        type: "right",
       },
     ],
   },
@@ -169,37 +159,33 @@ const canopyStructure: CanopyStructureType = {
     texPath: "../data/textures/texture_wood.jpg",
     instances: [
       {
-        coords: [-1.7, 2.4, 2.68], //front
-        scale: [3.4, 1, 1],
+        coords: [-1.775, 2.4, 2.755], //front
+        scale: [3.57, 1, 1],
         rotation: [0, 0, 0],
-        type: "front",
       },
       {
-        coords: [-1.7, 2.4, 2.68], //left
-        scale: [5.36, 1, 1],
+        coords: [-1.775, 2.4, 2.755], //left
+        scale: [5.49, 1, 1],
         rotation: [0, 90, 0],
-        type: "left",
       },
       {
-        coords: [-1.7, 2.4, -2.7], //back
-        scale: [3.4, 1, 1],
+        coords: [-1.775, 2.4, -2.755], //front
+        scale: [3.57, 1, 1],
         rotation: [0, 0, 0],
-        type: "back",
       },
       {
-        coords: [1.68, 2.4, 2.68], //right
-        scale: [5.36, 1, 1],
+        coords: [1.775, 2.4, 2.755], //left
+        scale: [5.49, 1, 1],
         rotation: [0, 90, 0],
-        type: "right",
       },
     ],
   },
-  // roof: {
-  //   mtlPath: "../data/models/Lodge_20x190x1000_bevel.mtl",
-  //   objPath: "../data/models/Lodge_20x190x1000_bevel.obj",
-  //   texPath: "../data/textures/texture_wood.jpg",
-  //   instances: [], //generated on model loading.
-  // },
+  roof: {
+    mtlPath: "../data/models/Lodge_20x190x1000_bevel.mtl",
+    objPath: "../data/models/Lodge_20x190x1000_bevel.obj",
+    texPath: "../data/textures/texture_wood.jpg",
+    instances: [], //generated on model loading.
+  },
   lodge_short: {
     mtlPath: "../data/models/lodge_150x50x1000.mtl",
     objPath: "../data/models/lodge_150x50x1000.obj",
@@ -212,13 +198,13 @@ const canopyStructure: CanopyStructureType = {
     texPath: "../data/textures/texture_wood.jpg",
     instances: [
       {
-        coords: [-1.6, 2.35, 2.66], // left
-        scale: [5.32, 1, 1],
+        coords: [-1.6, 2.35, 2.735], // left
+        scale: [5.45, 1, 1],
         rotation: [0, 90, 0],
       },
       {
-        coords: [1.55, 2.35, 2.66], // right
-        scale: [5.32, 1, 1],
+        coords: [1.55, 2.35, 2.735], // right
+        scale: [5.45, 1, 1],
         rotation: [0, 90, 0],
       },
     ],
