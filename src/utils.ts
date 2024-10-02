@@ -3,7 +3,7 @@ import { TextureLoader } from "three";
 import { OBJLoader } from "three/addons/loaders/OBJLoader.js";
 import { MTLLoader } from "three/examples/jsm/Addons.js";
 
-import { BalkInstanceType } from "./data.js";
+import { BalkInstanceType } from "./types.js";
 
 const { degToRad } = THREE.MathUtils;
 
